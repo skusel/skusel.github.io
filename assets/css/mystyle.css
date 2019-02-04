@@ -1,0 +1,30 @@
+body {
+    margin: 0% 10%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a i {
+    font-size: 36px;
+    padding: 0% 3% 5% 3%;
+}
+
+a:link {
+    color: #c00;
+}
+
+.socialLinks {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.aboutMeImage {
+    float: left;
+    max-height: 250px;
+    max-width: 95%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.clearfix {
+    overflow: auto;
+}
