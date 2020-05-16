@@ -1,5 +1,4 @@
 body {
-    margin: 0% 10%;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -12,19 +11,21 @@ a:link {
     color: #c00;
 }
 
-.socialLinks {
+a:visited {
+    color: #800000
+}
+
+.social-links {
     text-decoration: none !important;
     color: inherit !important;
 }
 
-.aboutMeImage {
-    float: left;
-    max-height: 250px;
-    max-width: 95%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+.about-me-image {
+    max-width: 400px;
 }
 
-.clearfix {
-    overflow: auto;
+@media (max-width: 575px) {
+    .about-me-image {
+        max-width: 100%;
+    }
 }
