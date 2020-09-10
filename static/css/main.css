@@ -22,7 +22,7 @@ a:visited {
 
 .about-me-image {
     max-width: 400px;
-    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 @media (max-width: 575px) {
