@@ -28,6 +28,6 @@ a:visited {
 @media (max-width: 575px) {
     .about-me-image {
         max-width: 100%;
-        margin-right: 0;
+        margin-left: 0;
     }
 }
